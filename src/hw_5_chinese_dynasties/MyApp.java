@@ -14,7 +14,7 @@ public class MyApp {
         int minBowman = 35;
         int minSoldier = 12;
 
-        double attackLiTotal = liTotal * (liRider + liBowman + liSoldier);
+        int attackLiTotal = liTotal * (liRider + liBowman + liSoldier);
         double attackMinTotal = minTotal * (minRider + minBowman + minSoldier);
 
         System.out.println("Total Li attack value = " + attackLiTotal);
