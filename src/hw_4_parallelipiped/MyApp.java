@@ -7,7 +7,7 @@ public class MyApp {
         int side3 = 6;
         int volume = side1 * side2 * side3;
         System.out.println("Volume=" + volume);
-        int length = side1 + side2 + side3;
+        int length = 4*(side1 + side2 + side3);
         System.out.println("Length=" + length);
     }
 }
